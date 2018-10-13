@@ -2,6 +2,7 @@
   "name": "mymovies",
   "version": "0.1.0",
   "author": "Andrey Sulzhyk <privettandrey@gmail.com>",
+  "homepage": "https://sulzh.github.io/mymovies/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",

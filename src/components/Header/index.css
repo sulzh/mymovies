@@ -1,0 +1,27 @@
+.header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  z-index: 1; }
+  .header__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+  .header .header-links {
+    display: flex;
+    flex-wrap: nowrap; }
+    .header .header-links__item {
+      display: block;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-left: 20px; }
+      .header .header-links__item_search {
+        background-image: url("./img/icon-search.svg"); }
+      .header .header-links__item_fav {
+        background-image: url("./img/icon-favorites-big.svg"); }

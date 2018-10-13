@@ -1,0 +1,14 @@
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .no-results__cat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #0006f5; }

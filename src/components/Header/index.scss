@@ -1,0 +1,41 @@
+@import "./theme/variables.scss";
+
+.header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header-links {
+    display: flex;
+    flex-wrap: nowrap;
+
+    &__item {
+      display: block;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-left: 20px;
+
+      &_search {
+        // display: none;
+        background-image: url('./img/icon-search.svg');
+      }
+
+      &_fav {
+        background-image: url('./img/icon-favorites-big.svg');
+      }
+    }
+  }
+}

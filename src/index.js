@@ -12,7 +12,7 @@ import './theme/index.css';
 import App from './app/App';
 
 ReactDOM.render(
-    <Router history = { history } basename = { process.env.PUBLIC_URL + '/' }>
+    <Router history = { history } >
       <App/>
     </Router>,
   document.getElementById('root')

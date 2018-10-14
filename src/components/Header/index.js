@@ -1,26 +1,20 @@
 //Core
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 //Styles
 import './index.css';
 
 export default class Header extends Component {
-  _openSearch = () => {
-    const { _toggleSearch } = this.props;
-
-    _toggleSearch(true);
-  };
-
   render () {
     return (
       <header className = "header">
         <div className = "header__wrapper container">
           <div className = "logo">
-            <Link to = '/' className = "logo__link" >MyMovies</Link>
+            <NavLink to = '/' className = "logo__link" >MyMovies</NavLink>
           </div>
           <div className = "header__links header-links">
-            <Link to = '/favorites' className = "header-links__item header-links__item_fav" ></Link>
+            <NavLink to = '/favorites' className = "header-links__item header-links__item_fav"></NavLink>
           </div>
         </div>
       </header>

@@ -1,3 +1,5 @@
+@import "./theme/variables.scss";
+
 .search {
   padding-bottom: 100px;
 }
@@ -41,4 +43,13 @@
   }
 }
 
+@media only screen and (max-width: $mobile-viewport) {
+  .search {
+    padding-bottom: 50px;
+  }
+
+  .search-form {
+    height: 50px;
+  }
+}
 

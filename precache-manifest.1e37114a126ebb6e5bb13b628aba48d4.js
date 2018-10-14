@@ -1,9 +1,5 @@
 self.__precacheManifest = [
   {
-    "revision": "cc5d30de2b067999ca984ef5429cadea",
-    "url": "/mymovies/static/media/icon-search.cc5d30de.svg"
-  },
-  {
     "revision": "08947b8ca8b866cebe906e3cdace9808",
     "url": "/mymovies/static/media/icon-search-blue.08947b8c.svg"
   },
@@ -24,19 +20,19 @@ self.__precacheManifest = [
     "url": "/mymovies/static/js/runtime~main.6eb5f867.js"
   },
   {
-    "revision": "6c443b77a73ab6d1eb88",
-    "url": "/mymovies/static/js/main.6c443b77.chunk.js"
+    "revision": "d73cfdf07353c4ac3022",
+    "url": "/mymovies/static/js/main.d73cfdf0.chunk.js"
   },
   {
-    "revision": "b5051975a78cf2c88a75",
-    "url": "/mymovies/static/js/1.b5051975.chunk.js"
+    "revision": "79a8cd7e75188ac0b52b",
+    "url": "/mymovies/static/js/1.79a8cd7e.chunk.js"
   },
   {
-    "revision": "6c443b77a73ab6d1eb88",
-    "url": "/mymovies/static/css/main.3f5060dc.chunk.css"
+    "revision": "d73cfdf07353c4ac3022",
+    "url": "/mymovies/static/css/main.ab1c5f4f.chunk.css"
   },
   {
-    "revision": "0a99e6b0b1e99a7442b404f4e9ae2bed",
+    "revision": "0205092618eb3ccd5ec49be1b9adc59e",
     "url": "/mymovies/index.html"
   }
 ];

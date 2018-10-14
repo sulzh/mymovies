@@ -26,16 +26,20 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      margin-left: 20px;
-
-      &_search {
-        // display: none;
-        background-image: url('./img/icon-search.svg');
-      }
 
       &_fav {
         background-image: url('./img/icon-favorites-big.svg');
+
+        &.active {
+          background-image: url('../Movie/img/icon-favorites-blue.svg');
+        }
       }
     }
+  }
+}
+
+@media only screen and (max-width: $mobile-viewport) {
+  .header {
+    height: 80px;
   }
 }

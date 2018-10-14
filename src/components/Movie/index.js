@@ -13,7 +13,7 @@ export default class Movie extends Component {
     const { like } = this.state;
     const id = this.props.id.toString();
     const { fetchFavoriteMoviesAsync } = this.props;
-
+    
     if (like) {
       this._deleteMovieId(id);
       this.setState({ like: false });
@@ -62,8 +62,8 @@ export default class Movie extends Component {
             <h2 className = "movie__title">{ original_title }</h2>
             <div className = "movie__block">
               <div className = "movie__wrap">
-                <span className = "movie__date">{ `Date: ${release_date}` }</span>
                 <span className = "movie__rate">{ `Rate: ${vote_average}` }</span>
+                <span className = "movie__date">{ `Date: ${release_date}` }</span>
               </div>
               <button 
                 className = { like ? "movie__like movie__like_active" : "movie__like" }

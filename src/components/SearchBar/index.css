@@ -32,3 +32,9 @@
     background-size: contain;
     background-position: center;
     background-color: transparent; }
+
+@media only screen and (max-width: 640px) {
+  .search {
+    padding-bottom: 50px; }
+  .search-form {
+    height: 50px; } }

@@ -19,9 +19,12 @@
       cursor: pointer;
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center;
-      margin-left: 20px; }
-      .header .header-links__item_search {
-        background-image: url("./img/icon-search.svg"); }
+      background-position: center; }
       .header .header-links__item_fav {
         background-image: url("./img/icon-favorites-big.svg"); }
+        .header .header-links__item_fav.active {
+          background-image: url("../Movie/img/icon-favorites-blue.svg"); }
+
+@media only screen and (max-width: 640px) {
+  .header {
+    height: 80px; } }

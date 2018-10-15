@@ -1,0 +1,66 @@
+.film {
+  display: flex;
+  height: calc(100vh - 200px);
+  align-items: center; }
+  .film__poster {
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
+  .film__img {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .film__info {
+    padding-left: 50px; }
+  .film__title {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
+    letter-spacing: .5px; }
+  .film__subtitle {
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    padding-bottom: 30px; }
+  .film__rate, .film__date, .film__text {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: .5px; }
+  .film__genres-block {
+    padding-bottom: 20px; }
+  .film__genres {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    column-count: 2; }
+  .film__genre {
+    color: #0006f5;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif; }
+  .film__description {
+    max-width: 80%;
+    font-size: 15px;
+    line-height: 20px; }
+
+@media only screen and (max-width: 640px) {
+  .film {
+    height: auto;
+    flex-direction: column; }
+    .film__poster {
+      width: 100%; }
+    .film__info {
+      padding-top: 40px;
+      padding-left: 0px;
+      padding-bottom: 80px; }
+    .film__description {
+      max-width: 100%; } }

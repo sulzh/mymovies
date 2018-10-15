@@ -1,5 +1,6 @@
 //Core
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 //Styles
 import './index.css';
@@ -42,7 +43,7 @@ export default class Movie extends Component {
   };
 
   render () {
-    const { poster_path, original_title, release_date, vote_average } = this.props;
+    const { id, poster_path, original_title, release_date, vote_average } = this.props;
     const { like } = this.state;
 
     const imgJsx = (
@@ -55,11 +56,14 @@ export default class Movie extends Component {
     const noImgJsx = (<div className = "movie__no-poster"></div>);
 
     return (
+      
       <div className = "movie">
         <div className = "movie__container">
           { poster_path ? imgJsx : noImgJsx }
           <div className = "movie__info">
-            <h2 className = "movie__title">{ original_title }</h2>
+            <Link className = "movie__link" to = {{ pathname: "/movie", search: `?id=${id}` }}>
+              <h2 className = "movie__title">{ original_title }</h2>
+            </Link>
             <div className = "movie__block">
               <div className = "movie__wrap">
                 <span className = "movie__rate">{ `Rate: ${vote_average}` }</span>

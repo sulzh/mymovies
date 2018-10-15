@@ -1,4 +1,4 @@
-import { POPULAR_URL, SEARCH_URL, FAV_URL } from './config.js';
+import { MOVIE_URL, POPULAR_URL, SEARCH_URL, FAV_URL } from './config.js';
 
 export const api = {
   async fetchPopularMovies(page) {
@@ -43,5 +43,17 @@ export const api = {
     }
 
     return favmov;
+  },
+
+  async fetchMovie(id) {
+    const response = await fetch(MOVIE_URL(id));
+
+    if (response.status !== 200) {
+      throw new Error('Movie data is not fetched.');
+    }
+
+    const result = await response.json();
+    
+    return result;
   },
 }

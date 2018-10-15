@@ -10,8 +10,9 @@ import { book } from '../navigation/book'
 
 // Pages
 import Main from '../pages/Main';
-import Favorites from '../pages/Favorites';
+import Film from '../pages/Film';
 import Search from '../pages/Search';
+import Favorites from '../pages/Favorites';
 
 export default class App extends Component {
   state = {
@@ -38,6 +39,11 @@ export default class App extends Component {
             exact
             component = { Search }
             path = { book.search }          
+          />
+          <Route
+            exact
+            component = { Film }
+            path = { book.movie }          
           />
         </Switch>
       </Provider>

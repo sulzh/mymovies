@@ -1,14 +1,14 @@
 {
-  "main.css": "/mymovies/static/css/main.ab1c5f4f.chunk.css",
-  "main.js": "/mymovies/static/js/main.d73cfdf0.chunk.js",
-  "main.js.map": "/mymovies/static/js/main.d73cfdf0.chunk.js.map",
-  "static/js/1.79a8cd7e.chunk.js": "/mymovies/static/js/1.79a8cd7e.chunk.js",
-  "static/js/1.79a8cd7e.chunk.js.map": "/mymovies/static/js/1.79a8cd7e.chunk.js.map",
+  "main.css": "/mymovies/static/css/main.abcad4b6.chunk.css",
+  "main.js": "/mymovies/static/js/main.ac3413bd.chunk.js",
+  "main.js.map": "/mymovies/static/js/main.ac3413bd.chunk.js.map",
+  "static/js/1.dd10255f.chunk.js": "/mymovies/static/js/1.dd10255f.chunk.js",
+  "static/js/1.dd10255f.chunk.js.map": "/mymovies/static/js/1.dd10255f.chunk.js.map",
   "runtime~main.js": "/mymovies/static/js/runtime~main.6eb5f867.js",
   "runtime~main.js.map": "/mymovies/static/js/runtime~main.6eb5f867.js.map",
   "static/media/index.css": "/mymovies/static/media/icon-favorites-blue.34b63c8e.svg",
-  "static/css/main.ab1c5f4f.chunk.css.map": "/mymovies/static/css/main.ab1c5f4f.chunk.css.map",
+  "static/css/main.abcad4b6.chunk.css.map": "/mymovies/static/css/main.abcad4b6.chunk.css.map",
   "index.html": "/mymovies/index.html",
-  "precache-manifest.1e37114a126ebb6e5bb13b628aba48d4.js": "/mymovies/precache-manifest.1e37114a126ebb6e5bb13b628aba48d4.js",
+  "precache-manifest.c05dd470740c432fe7f641e0ba467718.js": "/mymovies/precache-manifest.c05dd470740c432fe7f641e0ba467718.js",
   "service-worker.js": "/mymovies/service-worker.js"
 }
